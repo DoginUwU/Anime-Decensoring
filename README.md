@@ -2,6 +2,8 @@
 
 _Decensoring Hentai with Deep Neural Networks. Formerly named DeepMindBreak._
 
+## This project is a continuation of a discontinued project.
+
 A deep learning-based tool to automatically replace censored artwork in hentai with plausible reconstructions.
 
 The user colors cencored regions green in an image editing program like GIMP or Photoshop. A neural network fills in the censored regions.
