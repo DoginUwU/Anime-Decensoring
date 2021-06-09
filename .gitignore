@@ -1,4 +1,7 @@
 /__pycache__
 /.vscode
 /output
-/models/*
+/python/models/*
+/decensor_output/*.png
+/decensor_input/*.png
+/decensor_input_original/*.png
