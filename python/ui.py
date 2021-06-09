@@ -1,4 +1,4 @@
-import math
+
 import time
 from PIL import Image, ImageTk, ImageDraw
 import tkinter as tk
@@ -6,7 +6,6 @@ from tkinter import colorchooser
 from tkinter import ttk
 from tkinter import messagebox
 from tkinter import filedialog
-import decensor
 
 
 class PaintApplication(tk.Frame):
@@ -435,6 +434,8 @@ class PaintApplication(tk.Frame):
             label="Save", command=self.on_save_menu_clicked)
         self.filemenu.add_command(
             label="Save As", command=self.on_save_as_menu_clicked)
+        self.filemenu.add_command(
+            label="Test", command=self.on_decensor_menu_clicked)
         self.filemenu.add_command(
             label="Exit", command=self.on_close_menu_clicked)
         self.menubar.add_cascade(label="File", menu=self.filemenu)
