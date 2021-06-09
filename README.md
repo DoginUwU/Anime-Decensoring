@@ -6,8 +6,9 @@ A deep learning-based tool to automatically replace censored artwork in hentai w
 
 The user colors cencored regions green in an image editing program like GIMP or Photoshop. A neural network fills in the censored regions.
 
-DeepCreamPy has a pre-built binary for Windows 64-bit available [here](https://github.com/deeppomf/DeepCreamPy/releases/latest). DeepCreamPy works on Windows, Mac, and Linux.
+Anime-Decensoring has a pre-built binary for Windows 64-bit available [here](https://github.com/DoginUwU/Anime-Decensoring/releases/latest).
 
+![Screenshot_1](https://user-images.githubusercontent.com/59850361/121423114-4fe16f80-c946-11eb-9866-261b54304b64.png)
 ![Censored, decensored](/readme_images/mermaid_collage.png)
 
 ## Features
@@ -15,14 +16,14 @@ DeepCreamPy has a pre-built binary for Windows 64-bit available [here](https://g
 - Decensoring images of ANY size
 - Decensoring of ANY shaped censor (e.g. black lines, pink hearts, etc.)
 - Higher quality decensors
-- Support for mosaic decensors (WIP)
-- User interface (WIP)
+- Support for mosaic decensors (Beta)
+- User interface (Beta)
 
 ## Limitations
 
 The decensorship is for color hentai images that have minor to moderate censorship of the penis or vagina. If a vagina or penis is completely censored out, decensoring will be ineffective.
 
-It does NOT work with:
+It maybe does NOT work with:
 
 - Black and white/Monochrome image
 - Hentai with screentones (e.g. printed hentai)
@@ -31,32 +32,15 @@ It does NOT work with:
 - Censorship of anus
 - Animated gifs/videos
 
-## Table of Contents
-
-Setup:
-
-- [Running latest Window 64-bit release](INSTALLATION_BINARY.md)
-- [Running code yourself](INSTALLATION.md)
-
-Usage:
-
-- [Decensoring tutorial](USAGE.md)
-- [Troubleshooting for poor quality decensors](TROUBLESHOOTING.md)
-
-Miscellaneous:
-
-- [FAQ](FAQ.md)
-
 ## To do
 
-- Finish the user interface (estimated November)
-- Update model with better quality data (estimated November)
-- Add support for black and white images
+- Finish the user interface
+- Update model with better quality data
 - Add error log
 
-Follow me on Twitter [@deeppomf](https://twitter.com/deeppomf) for project updates.
+Follow me on Twitter [@DoginUwU](https://twitter.com/DoginUwU) for project updates.
 
-Contributions are welcome! Special thanks to IAmTheRedSpy, 0xb8, deniszh, Smethan, mrmajik45, harjitmoe, itsVale, StartleStars, and SoftArmpit!
+Initial projects credits to [liaoxiong3x](https://github.com/liaoxiong3x/DeepCreamPy).
 
 ## License
 
